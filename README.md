@@ -1,6 +1,7 @@
 # No Limits
 
 No Limits is a 1.15 Fabric mod that allows you to configure the max build height of the world.
+Erm.. I take that back; the current limit is currently hardcoded to 512. Config coming soon.
 
 ### Setup
 
