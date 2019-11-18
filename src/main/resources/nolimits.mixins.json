@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "package": "com.github.draylar.nolimits.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "WorldChunkMixin",
+    "ProtoChunkMixin",
+    "IntegratedServerMixin",
+    "ServerPropertiesHandlerMixin",
+    "BlockViewMixin",
+    "WorldMixin",
+    "ChunkSerializerMixin",
+    "WorldRendererMixin",
+    "RenderLayerMixin",
+    "LevelPropagatorMixin",
+    "SerializingRegionBasedStorageMixin",
+    "BuiltChunkStorageMixin",
+    "ChunkMixin",
+    "ColumnChunkNibbleArrayMixin",
+    "ChunkNibbleArrayMixin",
+    "ChunkDataS2CPacket"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

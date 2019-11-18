@@ -1,11 +1,11 @@
 
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "nolimits",
   "version": "${version}",
 
-  "name": "Fabric Example Mod",
-  "description": "Draylar's Fabric Example Mod!",
+  "name": "No Limits",
+  "description": "Allows you to configure the max height of the world. NOT compatible with normal saves! Make backups!",
   "authors": [
     "Draylar"
   ],
@@ -14,20 +14,17 @@
     "sources": "https://github.com/Draylar/fabric-example-mod"
   },
 
-  "license": "GPLv3",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/nolimits/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.draylar.modid.ExampleMod"
-    ],
-    "client": [
-      "com.github.draylar.modid.ExampleModClient"
+      "com.github.draylar.nolimits.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "nolimits.mixins.json"
   ],
 
   "requires": {

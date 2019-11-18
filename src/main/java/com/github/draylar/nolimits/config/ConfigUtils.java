@@ -1,6 +1,6 @@
-package com.github.draylar.modid.config;
+package com.github.draylar.nolimits.config;
 
-import com.github.draylar.modid.ExampleMod;
+import com.github.draylar.nolimits.ExampleMod;
 import me.sargunvohra.mcmods.autoconfig1u.AutoConfig;
 import me.sargunvohra.mcmods.autoconfig1u.ConfigManager;
 import me.sargunvohra.mcmods.autoconfig1u.serializer.ConfigSerializer;
